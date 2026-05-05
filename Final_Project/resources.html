@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYU Student Guide — School Resources</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-resources">
+
+  <nav aria-label="Main navigation">
+    <span class="nav-logo">NYU Guide</span>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="food.html">Food</a></li>
+      <li><a href="places.html">Places</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="community.html">Community</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-content">
+
+    <header class="section-header">
+      <div class="section-tag">📚 Campus</div>
+      <h1>School <span>Resources</span></h1>
+      <p>
+        NYU offers incredible resources right in the heart of New York City.
+        Make sure you're taking full advantage of everything available to you as a student.
+      </p>
+    </header>
+
+    <section class="card-grid" aria-label="School resources">
+
+      <!-- Washington Square Park -->
+      <article class="video-card" id="wsp">
+        <video
+          controls
+          preload="metadata"
+          width="640"
+          height="360"
+          aria-label="Video footage at Washington Square Park"
+        >
+          <source src="images/Piano.mp4" type="video/mp4" />
+          <p>Your browser does not support HTML video.
+            <a href="images/Piano.mp4">Download the video</a>.
+          </p>
+        </video>
+        <div class="card-body">
+          <span class="card-tag">🌳 Relaxation</span>
+          <h2>Washington Square Park</h2>
+          <p>
+            The symbolic heart of NYU's campus. The iconic arch marks the gateway of your
+            entire college experience. Study on the grass, watch street performers, or meet classmates by the famous fountain — this park belongs to every NYU student.
+          </p>
+        </div>
+      </article>
+
+      <!-- Bobst Library -->
+      <article class="card" id="bobst">
+        <img
+          src="images/Bobst.jpg"
+          srcset="images/Bobst.jpg 1x, images/Bobst@2x.jpg 2x"
+          alt="Interior of Elmer Holmes Bobst Library at NYU showing the soaring atrium"
+          width="640" height="440" loading="eager"
+        />
+        <div class="card-body">
+          <span class="card-tag">📖 Study</span>
+          <h2>Bobst Library</h2>
+          <p>
+            NYU's stunning 12-story library is one of the largest open-stack research libraries in the United States. With millions of volumes, 24-hour access during finals season, and beautiful skylit reading areas, it's your academic home base throughout your studies.
+          </p>
+        </div>
+      </article>
+
+      <!-- NYU Athletic Facilities -->
+      <article class="card" id="gym">
+        <img
+          src="images/Gym.jpg"
+          srcset="images/Gym.jpg 1x, images/Gym@2x.jpg 2x"
+          alt="NYU athletic facility gym floor with modern exercise equipment"
+          width="640" height="440" loading="lazy"
+        />
+        <div class="card-body">
+          <span class="card-tag">💪 Fitness</span>
+          <h2>NYU Athletic Facilities</h2>
+          <p>
+            NYU operates multiple fitness centers across the city, all free with your student ID.
+            From full weight rooms and swimming pools to basketball courts and group fitness classes, there's something for every schedule and fitness level. No matter where you are on campus, a gym is never far away — so staying active in the city is easier than you think.
+          </p>
+        </div>
+      </article>
+
+      <!-- Health Center -->
+      <article class="card" id="health">
+        <img
+          src="images/health.jpg"
+          srcset="images/health.jpg 1x, images/health@2x.jpg 2x"
+          alt="NYU student health center bright and welcoming interior corridor"
+          width="640" height="440" loading="lazy"
+        />
+        <div class="card-body">
+          <span class="card-tag">🏥 Wellness</span>
+          <h2>Student Health Center</h2>
+          <p>
+            NYU's Student Health Center provides comprehensive medical, mental health, and wellness services for all enrolled students. From routine check-ups to counseling and crisis support, your well-being is fully supported throughout your college journey.
+          </p>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made with 💜 for <span>NYU Violets</span> &mdash; New York City &mdash;
+      <a href="index.html">Home</a> |
+      <a href="food.html">Food</a> |
+      <a href="places.html">Places</a> |
+      <a href="resources.html">Resources</a> |
+      <a href="community.html">Community</a>
+    </p>
+    <p style="margin-top:.4rem; font-size:.75rem; opacity:.6;">
+    Image credits: Bobst Library &mdash; nyunews.com; NYU Gym &mdash; gonyuathletics.com
+  </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
