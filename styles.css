@@ -485,7 +485,7 @@ footer a:hover   { color: var(--accent); text-decoration: none; }
   nav { padding: 0 1.25rem; }
   nav .nav-logo { font-size: 1rem; }
   nav ul { gap: 0; }
-  nav ul li a { padding: .35rem .5rem; font-size: .74rem; }
+  nav ul li a { padding: .35rem .4rem; font-size: .68rem; }
 
   h1 { font-size: 2rem; }
   h2 { font-size: 1.6rem; }
